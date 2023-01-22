@@ -1,0 +1,111 @@
+/*  CSS RESET  */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*  IMPORT  */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@400;500;700&display=swap');
+
+/*  CSSZIN  */
+
+body {
+    background-color: #f33a7ba5;
+    height: 100vh;
+}
+
+header {
+    align-items: center;
+    background-color: #b467fddb;
+    display: flex;
+    height: 10vh;
+    justify-content: center;
+}
+
+.manga {
+    align-items: flex-start;
+    display: flex;
+    height: 6vh;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+form {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+label {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 3vh;
+    margin-top: 2vh;
+}
+
+input {
+    background: #c7f457;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    height: 4vh;
+    text-transform: uppercase;
+    width: 70%;
+}
+
+.submit-button {
+    background: #c7f457;
+    border: none;
+    border-radius: 12px;
+    color: #000;
+    cursor: pointer;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2vh;
+    height: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-transform: uppercase;
+    width: 20%;
+}
+
+#sec-form {
+    margin-top: 1vh;
+}
+
+th {
+    background: #49fcf3;
+    border: 1px solid #7505adda;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}

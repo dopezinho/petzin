@@ -13,7 +13,61 @@
 </head>
 <body>
 
+    <header>
+
+        <img src="./assets/mango.png" alt="manga logo" class="manga">
+        <h1 class="title">madurada</h1>
+
+    </header>
+
+   <section id="sec-form">
+
+    <div id="form">
+
+        <form>
+
+            <label for="mangoName">mangolera</label>
+            <input autocomplete="off" type="text" required id="fname" name="mangoName">
+            
+            <label for="mangoBreed">especmns</label>
+            <input autocomplete="off" type="text" required id="fbreed" name="mangoBreed">
+            
+            <label for="mangoOwner">owninni</label>
+            <input autocomplete="off" type="text" required id="fowner" name="mangoOwner">
+            
+            <label for="mangophone">teléfono</label>
+            <input autocomplete="off" type="text" required id="fphone" name="mangophone">
+
+            <button class="submit-button" type="submit">agenda</button>
+            
+        </form>
+
+    </div>
+
+    <div>
+
+        <table id="dataTable">
+
+            <tr>
+                <th>id</th>
+                <th>nome</th>
+                <th>specimens</th>
+                <th>owninni</th>
+                <th>phone</th>
+                <th>remove</th>
+            </tr>
+
+        </table>
+
+    </div>
+
+   </section>
+
+    <footer>
+
+    </footer>
+
     <script src="./index.js"></script>
-    
+
 </body>
 </html>
